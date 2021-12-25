@@ -1,7 +1,9 @@
-# Web Scraping Artistanbul Blog
+# Artistanbul blogs cli
 
 Artistanbul'un paylaştığı blogları terminalden okuyabileceğiniz bir Python programı. <br>
 
+
+https://user-images.githubusercontent.com/21236709/147387443-cc434620-5d3d-4ac1-bbb6-f1649ce15a1b.mp4
 
 
 
