@@ -1,8 +1,16 @@
 # Web Scraping Artistanbul Blog
 
-Artistanbul blog sayfasından blog başlıklarını ve linklerini alan Python programı
+Kurulum:
+~~~
+$ pip install requests beautifulsoup4 sty
+~~~
 
-![artistanbul_scrape](https://user-images.githubusercontent.com/21236709/129001092-b62cb4b9-3fbb-469e-bf82-8ed195adfcf2.gif)
+Programı Çalıştırma:
+~~~
+$ python3 artistanbul.py
+~~~
+
+<!-- ![artistanbul_scrape](https://user-images.githubusercontent.com/21236709/129001092-b62cb4b9-3fbb-469e-bf82-8ed195adfcf2.gif) -->
 
 ### Kullandığım Kütüphaneler
 - [Requests](https://docs.python-requests.org/en/master/)
