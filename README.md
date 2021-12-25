@@ -1,18 +1,29 @@
 # Web Scraping Artistanbul Blog
 
-Kurulum:
+Artistanbul'un paylaştığı blogları terminalden okuyabileceğiniz bir Python programı. <br>
+
+
+
+
+Bloglar:
+[artistanbul.io/blog](https://www.artistanbul.io/blog/)
+
+Gerekli kütüphaneleri indirin:
 ~~~
 $ pip install requests beautifulsoup4 sty
 ~~~
 
-Programı Çalıştırma:
+Programı Çalıştırın:
 ~~~
 $ python3 artistanbul.py
 ~~~
 
-<!-- ![artistanbul_scrape](https://user-images.githubusercontent.com/21236709/129001092-b62cb4b9-3fbb-469e-bf82-8ed195adfcf2.gif) -->
+Alias oluşturun: <br>
+~~~
+# ~/.bashrc 'nin içine
 
-### Kullandığım Kütüphaneler
-- [Requests](https://docs.python-requests.org/en/master/)
-- [BeautifulSoup](https://pypi.org/project/beautifulsoup4/ )
-- [Sty](https://sty.mewo.dev/index.html)
+# örnek alias
+# terminale "artistanbul" yazınca programın çalışması için:
+alias artistanbul="python3 DOSYANIN_KONUMU/artistanbul.py"
+~~~
+
